@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: home-credit-pipeline
+Version: 0.1.0
+Summary: Home Credit Default Risk regression pipeline
+Author: Your Name
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas>=2.0
+Requires-Dist: numpy>=1.25
+Requires-Dist: scikit-learn>=1.3
+Requires-Dist: lightgbm>=4.0
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: joblib>=1.3
+Requires-Dist: seaborn>=0.13.2
+Requires-Dist: optuna>=4.5.0
+Dynamic: license-file
