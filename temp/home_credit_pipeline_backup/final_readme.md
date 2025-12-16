@@ -193,7 +193,7 @@ Add/extend `tests/test_preprocessor.py`:
   This makes inference and the API independent from the training run.
 
 - **API (FastAPI)**  
-  Provides an endpoint `POST /predict_by_id` that returns the predicted default probability for an **existing** application by `SK_ID_CURR` (read from `application_test.csv` or `application_train.csv`).
+  Provides an endpoint `POST /predict_by_id` that returns the predicted default probability for an **existing** application by `SK_ID_CURR` (read from `application_train.csv`).
 
 ![API Swagger](computing_final_api_swagger.png)
 
